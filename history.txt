@@ -1,0 +1,55 @@
+  526  ls
+  527  ls -la
+  528  vim .gitignore
+  529  ls -la
+  530  git clone git@github.com:AleksSidorenko/GitHub.git
+  531  ls -la
+  532  git checkout -b feature
+  533  git status
+  534  git branch
+  535  git status
+  536  git branch
+  537  ls
+  538  ls -la
+  539  cd GitHub
+  540  ls -la
+  541  git branch
+  542  git checkout -b feature
+  543  git branch
+  544  vim README.md
+  545  vim .gitignore
+  546  git status
+  547  git add
+  548  git add .gitignore,README.md
+  549  git add .gitignore
+  550  git add README.md
+  551  git status
+  552  git commit -m "Новые файлы"
+  553  git status
+  554  git push origin feature
+  555  git status
+  556  git branch
+  557  git commit --amend
+  558  git status
+  559  git checkout main
+  560  git branch
+  561  git merge feature
+  562  git status
+  563  git push origin feature
+  564  git status
+  565  git status
+  566* git 
+  567  git status
+  568  git checkout feature
+  569  git status
+  570  git branch
+  571  git status
+  572  git status
+  573  git checkout main
+  574  git branch
+  575  history>history.txt
+  576  git status
+  577  vim history.txt
+  578  history | tail -n -50 >history.txt
+  579  vim history.txt
+  580  history | tail -n -55 >history.txt
