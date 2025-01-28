@@ -1,55 +1,500 @@
-  526  ls
-  527  ls -la
-  528  vim .gitignore
-  529  ls -la
-  530  git clone git@github.com:AleksSidorenko/GitHub.git
-  531  ls -la
-  532  git checkout -b feature
-  533  git status
-  534  git branch
-  535  git status
-  536  git branch
-  537  ls
-  538  ls -la
-  539  cd GitHub
-  540  ls -la
-  541  git branch
-  542  git checkout -b feature
-  543  git branch
-  544  vim README.md
-  545  vim .gitignore
-  546  git status
-  547  git add
-  548  git add .gitignore,README.md
-  549  git add .gitignore
-  550  git add README.md
-  551  git status
-  552  git commit -m "Новые файлы"
-  553  git status
-  554  git push origin feature
-  555  git status
-  556  git branch
-  557  git commit --amend
-  558  git status
-  559  git checkout main
-  560  git branch
-  561  git merge feature
-  562  git status
-  563  git push origin feature
-  564  git status
-  565  git status
-  566* git 
-  567  git status
-  568  git checkout feature
-  569  git status
-  570  git branch
-  571  git status
-  572  git status
-  573  git checkout main
-  574  git branch
-  575  history>history.txt
-  576  git status
-  577  vim history.txt
-  578  history | tail -n -50 >history.txt
-  579  vim history.txt
-  580  history | tail -n -55 >history.txt
+   31  cat index
+   32  cd ..
+   33  ls
+   34  ls -la
+   35  cd .git
+   36  ls -la
+   37  cd refs
+   38  ls -la
+   39  ls
+   40  cd logs
+   41  cat logs
+   42  cd ..
+   43  cd logs
+   44  ls
+   45  cat HEAD
+   46  cat refs
+   47  cd refs
+   48  ls
+   49  cat heads
+   50  cd ..
+   51  cd ..
+   52  ls
+   53  cd config
+   54  ls
+   55  cat config
+   56  git status
+   57  cd ..
+   58  git status
+   59  git log
+   60  clear
+   61  cd ..
+   62  cd ich
+   63  ls
+   64  ls -ha
+   65  git clone git@github.com:AleksSidorenko/git-branch.git
+   66  ls -ha
+   67  cd ..
+   68  ls
+   69  git status
+   70  cd ich
+   71  git status
+   72  git branch
+   73  git checkout -b gitignore
+   74  git branch
+   75  vim .gitignore
+   76  ls
+   77  ls -ha
+   78  git status
+   79  git commit -m "gitignory"
+   80  git add .gitignore
+   81  git commit -m "gitignory"
+   82  git status
+   83  git status
+   84  clear
+   85  git status
+   86  ls -ha
+   87  cat .gitignore
+   88  clear
+   89  ls -ha
+   90  git add .gitignore
+   91  git status
+   92  git commit -m "gitignory"
+   93  git add -A
+   94  git push -u origin main
+   95  git status
+   96  ls
+   97  ls -ha
+   98  git branch
+   99  git push -u origin gitignore
+  100  git push -u git-branch gitignore
+  101  git log
+  102  clear
+  103  git branch
+  104  ls -ha
+  105  cd git-branch
+  106  ls
+  107  ls -ha
+  108  git branch
+  109  git checkout gitignore
+  110  git branch
+  111  git status
+  112  git add .gitignore
+  113  git status
+  114  git add /ich/.gitignore
+  115  git add ich/.gitignore
+  116  git add -A
+  117  git status
+  118  vim .gitignore
+  119  cp /ich/.gitignore /ich/git-branch
+  120  cp /ich/.gitignore /ich/git-branch/
+  121  cp /ich/.gitignore /ich/git-branch/.gitignore
+  122  cd ..
+  123  ls -ha
+  124  cp /ich/.gitignore /ich/git-branch/.gitignore
+  125  cp .gitignore /ich/git-branch
+  126  cp ich/.gitignore ich/git-branch
+  127  cp ich/oskar.jpeg ich/git-branch
+  128  cd /
+  129  ls -la
+  130  pwd
+  131  cd ich
+  132  cd ~
+  133  ls -la
+  134  pwd
+  135  cp /Users/laimamur/ich/.gitignore /Users/laimamur/ich/git-branch
+  136  cd git-branch
+  137  cd ich
+  138  pwd
+  139  ls -la
+  140  cd git-branch
+  141  ls -la
+  142  cat .gitignore
+  143  clear
+  144  git status
+  145  git add .gitignore
+  146  git commit -m "gitignory1"
+  147  git push -u git-branch gitignore
+  148  git branch
+  149  ls -la
+  150  vim .gitignore
+  151  git commit -m "gitignory1"
+  152  git push -u git-branch gitignore
+  153  git status
+  154  git add -A
+  155  git status
+  156  git push -u git-branch gitignore
+  157  git commit -m "gitignory1"
+  158  git status
+  159  git push -u git-branch gitignorec
+  160  git status
+  161  pwd
+  162  git branch
+  163  git checkout main
+  164  git branch -M main
+  165  git status
+  166  git branch
+  167  git branch -M gitignore
+  168  git branch
+  169  git remote add git-branch clear
+  170  clear
+  171  cd ..
+  172  cd git-branch/
+  173  ls -la
+  174  git status
+  175  git init
+  176  git status
+  177  git branch
+  178  cd ..
+  179  ls -la
+  180  git branch
+  181  cd git-branch/
+  182  git remote add origin git@github.com:AleksSidorenko/git-branch.git
+  183  git push -u origin main
+  184  git push -u git-branch gitignore
+  185  git branch
+  186  git branch /Users/laimamur/ich/main
+  187  git branch
+  188  cd ..
+  189  ls -la
+  190  rm -rf git-branch
+  191  ls -la
+  192  cd ..
+  193  ls -la
+  194  clear
+  195  git clone git@github.com:AleksSidorenko/git-branch.git
+  196  ls -la
+  197  clear
+  198  cd git-branch/
+  199  ls
+  200  ls -la
+  201  git init
+  202  git branch
+  203  git status
+  204  echo "#Hello Alex" > README.md
+  205  ls -la
+  206  git add README.md 
+  207  git status
+  208  git commit -m "Readme"
+  209  git status
+  210  git branch -M main
+  211  git status
+  212  git branch
+  213  git remote add origin git@github.com:AleksSidorenko/git-branch.git
+  214  git push -u origin main
+  215  git log
+  216  clear
+  217  git branch
+  218  git checkout -b gitignore
+  219  git branch
+  220  vim .gitignore
+  221  ls -la
+  222  git status
+  223  git add .gitignore 
+  224  git status
+  225  git commit -m "git-branch"
+  226  git status
+  227  git push -u git-branch gitignore
+  228  git remoute add origin git@github.com:AleksSidorenko/git-branch.git
+  229  git remote add origin git@github.com:AleksSidorenko/git-branch.git
+  230  git push -u git-branch gitignore
+  231  git push -u origin gitignore
+  232  git log
+  233  git status
+  234  clear
+  235  ls -ia
+  236  git branch
+  237  git status
+  238  vim .gitignore 
+  239  git status
+  240  git log
+  241  git commit -m "git-branch1"
+  242  git status
+  243  git add .gitignore 
+  244  git status
+  245  git commit -m "git-branch1"
+  246  git status
+  247  git push -u origin gitignore
+  248  git log
+  249  clear
+  250  ls -la
+  251  git branch
+  252  cd ..
+  253  ls -la
+  254  ls -la
+  255  vim .bashrc
+  256  clear
+  257  ls -la
+  258  cd .bashrc
+  259  ls
+  260  ls -la
+  261  ls *
+  262  for entity in *.txt; do echo "$entity"; done
+  263  uptime
+  264  ls
+  265  tree
+  266  git status
+  267  cd ich
+  268  git status
+  269  ls
+  270  ls ßla
+  271  ls -la
+  272  cd .gitignore
+  273  cat .gitignore 
+  274  clear
+  275  cd ..
+  276  cd ssh
+  277  cd .ssh
+  278  ls
+  279  ssh ich
+  280  ls ßla
+  281  ls -la
+  282  ls -p | grep -v /
+  283  ls -t
+  284  ls -l
+  285  ls -p | grep -v /
+  286  ls -p
+  287  ls -p | grep -v /
+  288  ls -p | grep -v | awk "{print $1}" /
+  289  ls -p | awk "{print $1}" /
+  290  ls -p | grep -v | awk "{print $1}" /
+  291  ls -p | grep -v | awk "{print $1}" /
+  292  ls -p | grep -v | awk "{print $1}" /
+  293  ls -p | grep -v /
+  294  ls -p /
+  295  ls -p | grep -v | awk "{print $1}" /
+  296  ls -p | grep -v | awk -F "{print $1}" /
+  297  ls -p | grep -v grep | awk "{print $1}" /
+  298  ls
+  299  ls -la
+  300  ls | awk '{print $1}'
+  301  ls | awk '{print $1}' 
+  302  ls -l | awk '{print $1}' 
+  303  ls -la | awk '{print $1}' 
+  304  ls -la | awk '{print $2}' 
+  305  ls -la | awk '{print $1, $2}' 
+  306  ls -la | awk '{print $1, $2, $3}' 
+  307  ls -p | awk '{print $1, $2, $3}' 
+  308  ls -la | awk '{print $1, $2, $3}' 
+  309  ls -la | awk '{print $1}' 
+  310  ssh ich
+  311  ssh ich
+  312  git log --oneline --all --decorate -graph
+  313  cd ich
+  314  git log --oneline --all --decorate -graph
+  315  ls
+  316  git status
+  317  ls -la
+  318  git log
+  319  git log --oneline --all --decorate -graph
+  320  git log --oneline --all --decorate
+  321  git reflog
+  322  crontab -e
+  323  git remote add origin git@github.com:AleksSidorenko/GitHub.
+  324  ls
+  325  git@github.com:AleksSidorenko/GitHub.git
+  326  ls
+  327  git status
+  328  cd git-branch/
+  329  ls
+  330  cd ..
+  331  cd GitHub.git
+  332  ls
+  333  git clone git@github.com:AleksSidorenko/GitHub.git
+  334  ls
+  335  cd ich
+  336  ls
+  337  cd ich_a
+  338  cd ..
+  339  cd ich_a
+  340  ls
+  341  cd ..
+  342  ls -la
+  343  cd git-branch/
+  344  ls
+  345  ls -la
+  346  cd ..
+  347  cd GitHub
+  348  ls
+  349  ls -la
+  350  vim .gitignore
+  351  ls -la
+  352  git clone git@github.com:AleksSidorenko/GitHub.git
+  353  ls -la
+  354  git checkout -b feature
+  355  git status
+  356  git branch
+  357  git status
+  358  git branch
+  359  ls
+  360  ls -la
+  361  cd GitHub
+  362  ls -la
+  363  git branch
+  364  git checkout -b feature
+  365  git branch
+  366  vim README.md
+  367  vim .gitignore
+  368  git status
+  369  git add
+  370  git add .gitignore,README.md
+  371  git add .gitignore
+  372  git add README.md
+  373  git status
+  374  git commit -m "Новые файлы"
+  375  git status
+  376  git push origin feature
+  377  git status
+  378  git branch
+  379  git commit --amend
+  380  git status
+  381  git checkout main
+  382  git branch
+  383  git merge feature
+  384  git status
+  385  git push origin feature
+  386  git status
+  387  git status
+  388  git 
+  389  git status
+  390  git checkout feature
+  391  git status
+  392  git branch
+  393  git status
+  394  git status
+  395  git checkout main
+  396  git branch
+  397  history>history.txt
+  398  git status
+  399  vim history.txt
+  400  history | tail -n -50 >history.txt
+  401  vim history.txt
+  402  history | tail -n -55 >history.txt
+  403  vim history.txt
+  404  git status
+  405  git add history.txt
+  406  git status
+  407  git commit -m "Добавлен файл с командами"
+  408  git status
+  409  git push origin main
+  410  git status
+  411  git status
+  412  git branch
+  413  git checkout feature
+  414  git branch
+  415  git commit --amend
+  416  vim README.md 
+  417  vim .gitignore 
+  418  git status
+  419  git add all
+  420  git add -a
+  421  git add -A
+  422  git status
+  423  git commit -m "Новое сообщение"
+  424  git status
+  425  git push origin feuture
+  426  git push origin feature
+  427  git status
+  428  git branch
+  429  git commit --amend
+  430  git status
+  431  git checkout main
+  432  git branch
+  433  git merge feature
+  434  vim .gitignore 
+  435  vim README.md 
+  436  git add -A
+  437  git commit -m "Новое сообщение 1"
+  438  git status
+  439  git push origin featur
+  440  git status
+  441  git commit --amend
+  442  git status
+  443  git branch
+  444  git checkout feature
+  445  git branch
+  446  git commit --amend
+  447  git checkout main
+  448  git branch
+  449  git merge feature
+  450  vim README.md 
+  451  git status
+  452  git add -A
+  453  git status
+  454  git commit -m ".gitignore 1"
+  455  git status
+  456  git status
+  457  git push origin main
+  458  git status
+  459  git branch
+  460  git checkout feature
+  461  git branch
+  462  git status
+  463  vim .gitignore 
+  464  vim README.md 
+  465  git status
+  466  git add -A
+  467  git status
+  468  git commit - "Изменения"
+  469  git commit -m "Изменения"
+  470  git status
+  471  git push origin feature
+  472  git pull origin feature
+  473  git status
+  474  git push origin feature
+  475  git pull origin feature
+  476  git pull origin main
+  477  git status
+  478  git branch
+  479  git push origin feature
+  480  git commit --amend
+  481  git status
+  482  git checkout main
+  483  git merge feature
+  484  git merge feature
+  485  git status
+  486  git branch
+  487  git push origin feature
+  488  git push origin main
+  489  git status
+  490  clear
+  491  ssh ich
+  492  ssh ich
+  493  ls
+  494  ls -la
+  495  clear
+  496  ssh ich
+  497  ls -la
+  498  ls
+  499  ls -la
+  500  cd /id_rsa
+  501  ssh ich
+  502  ls -la
+  503  cd ALEX
+  504  clear
+  505  git commit --amend
+  506  git log --oneline
+  507  ssh ich
+  508  ls -la
+  509  cd GitHub/
+  510  ls -la
+  511  git log --oneline
+  512  git log --oneline --all
+  513  cd GitHub
+  514  ls -la
+  515  git log --oneline
+  516  cd ..
+  517  ls -la
+  518  cd ..
+  519  ls -la
+  520  cd GitHub
+  521  cd GitHub
+  522  ls -la
+  523  git branch
+  524  git checkout feature
+  525  git branch
+  526  git commit --amend
+  527  git checkout main
+  528  git branch
+  529  git merge feature
+  530  history>history.txt
